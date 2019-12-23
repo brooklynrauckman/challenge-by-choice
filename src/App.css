@@ -10,18 +10,19 @@
   align-items: center;
   justify-content: center;
   max-width: 940px;
+  padding: 2rem 0;
 }
 
 .title {
   font-size: 3.25rem;
   font-weight: bold;
-  margin: 1rem;
+  margin: 1rem 2rem;
   text-align: center;
 }
 
 .greeting {
   font-size: 1.75rem;
-  margin: 1rem;
+  margin: 1rem 2rem;
   text-align: center;
 }
 
@@ -148,7 +149,7 @@
 
 /* media queries  */
 
-@media (min-width: 500px) {
+@media (min-width: 550px) {
   .badges {
     grid-template-columns: repeat(2, 1fr);
   }
